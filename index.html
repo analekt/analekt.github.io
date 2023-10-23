@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Ryo Kikuchi</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>RYO KIKUCHI</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -213,7 +213,7 @@ ul > li {
 }
 
 ul.to-do-list {
-	text-indent: -1.7em;
+	padding-inline-start: 0;
 }
 
 ul.to-do-list > li {
@@ -283,14 +283,30 @@ ol > li {
 	margin-right: 1em;
 }
 
+.page-description {
+    margin-bottom: 2em;
+}
+
 .simple-table {
 	margin-top: 1em;
 	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
 }
 
-.simple-table-header {
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
 	background: rgb(247, 246, 243);
 	color: black;
+}
+.simple-table-header {
 	font-weight: 500;
 }
 
@@ -497,39 +513,39 @@ blockquote {
 }
 .highlight-gray {
 	color: rgba(120, 119, 116, 1);
-	fill: rgba(145, 145, 142, 1);
+	fill: rgba(120, 119, 116, 1);
 }
 .highlight-brown {
 	color: rgba(159, 107, 83, 1);
-	fill: rgba(187, 132, 108, 1);
+	fill: rgba(159, 107, 83, 1);
 }
 .highlight-orange {
 	color: rgba(217, 115, 13, 1);
-	fill: rgba(215, 129, 58, 1);
+	fill: rgba(217, 115, 13, 1);
 }
 .highlight-yellow {
 	color: rgba(203, 145, 47, 1);
-	fill: rgba(203, 148, 51, 1);
+	fill: rgba(203, 145, 47, 1);
 }
 .highlight-teal {
 	color: rgba(68, 131, 97, 1);
-	fill: rgba(108, 155, 125, 1);
+	fill: rgba(68, 131, 97, 1);
 }
 .highlight-blue {
 	color: rgba(51, 126, 169, 1);
-	fill: rgba(91, 151, 189, 1);
+	fill: rgba(51, 126, 169, 1);
 }
 .highlight-purple {
 	color: rgba(144, 101, 176, 1);
-	fill: rgba(167, 130, 195, 1);
+	fill: rgba(144, 101, 176, 1);
 }
 .highlight-pink {
 	color: rgba(193, 76, 138, 1);
-	fill: rgba(205, 116, 159, 1);
+	fill: rgba(193, 76, 138, 1);
 }
 .highlight-red {
 	color: rgba(212, 76, 71, 1);
-	fill: rgba(225, 111, 100, 1);
+	fill: rgba(212, 76, 71, 1);
 }
 .highlight-gray_background {
 	background: rgba(241, 241, 239, 1);
@@ -564,39 +580,39 @@ blockquote {
 }
 .block-color-gray {
 	color: rgba(120, 119, 116, 1);
-	fill: rgba(145, 145, 142, 1);
+	fill: rgba(120, 119, 116, 1);
 }
 .block-color-brown {
 	color: rgba(159, 107, 83, 1);
-	fill: rgba(187, 132, 108, 1);
+	fill: rgba(159, 107, 83, 1);
 }
 .block-color-orange {
 	color: rgba(217, 115, 13, 1);
-	fill: rgba(215, 129, 58, 1);
+	fill: rgba(217, 115, 13, 1);
 }
 .block-color-yellow {
 	color: rgba(203, 145, 47, 1);
-	fill: rgba(203, 148, 51, 1);
+	fill: rgba(203, 145, 47, 1);
 }
 .block-color-teal {
 	color: rgba(68, 131, 97, 1);
-	fill: rgba(108, 155, 125, 1);
+	fill: rgba(68, 131, 97, 1);
 }
 .block-color-blue {
 	color: rgba(51, 126, 169, 1);
-	fill: rgba(91, 151, 189, 1);
+	fill: rgba(51, 126, 169, 1);
 }
 .block-color-purple {
 	color: rgba(144, 101, 176, 1);
-	fill: rgba(167, 130, 195, 1);
+	fill: rgba(144, 101, 176, 1);
 }
 .block-color-pink {
 	color: rgba(193, 76, 138, 1);
-	fill: rgba(205, 116, 159, 1);
+	fill: rgba(193, 76, 138, 1);
 }
 .block-color-red {
 	color: rgba(212, 76, 71, 1);
-	fill: rgba(225, 111, 100, 1);
+	fill: rgba(212, 76, 71, 1);
 }
 .block-color-gray_background {
 	background: rgba(241, 241, 239, 1);
@@ -625,16 +641,19 @@ blockquote {
 .block-color-red_background {
 	background: rgba(253, 235, 236, 1);
 }
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
 .select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
 .select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
 .select-value-color-green { background-color: rgba(219, 237, 219, 1); }
 .select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
-.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
 .select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
 .select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
 .select-value-color-red { background-color: rgba(255, 226, 221, 1); }
 .select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
 .select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
 
 .checkbox {
 	display: inline-flex;
@@ -654,42 +673,5 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style></head>
-	
-<body>
-
-<article id="356d8878-357f-424c-b4ce-2b0dd85da3ad" class="page sans">
-	<header>
-		<div class="page-header-icon undefined"><span class="icon">👻</span></div><h1 class="page-title">Ryo Kikuchi</h1>
-	</header>
-
-	<div class="page-body">
-	<h1 id="34825c84-ff85-444e-acbb-71ef9aa735a8" class="">About</h1>
-		<p id="ff9ec3f8-62bb-4529-ba85-6e527391f6b5" class="">Content editor at publishing house in Tokyo, Japan.</p>
-		<ul id="96c3619d-decb-48ee-967c-a4d275c201f2" class="bulleted-list">
-			<li style="list-style-type:disc"><a href="http://twitter.com/analekt">Twitter</a></li></ul>
-			<li style="list-style-type:disc"><a href="http://github.com/analekt">Github</a></li>
-			<li style="list-style-type:disc"><a href="http://fb.me/kivchi">Facebook</a></li>
-	<h1 id="011e41b7-fd2f-451b-ab07-54d8bb6e1ed8" class="">Products</h1>
-		
-		<h2 id="8d1f0769-5271-438c-a29d-b3559d4827a1" class="">Japanese Hiragana Letter Poster for Kids</h2>
-			<h3 id="16fc21ff-040f-403b-a2a9-09fb04ce40e2" class="">Outline</h3>
-				<p id="6fe71949-fe8d-4a2d-a253-2a82561c0656" class="">ひらがなを学ぶ幼児のために作成したポスター。カタカナを主としたバージョンも準備中です。</p>
-			<h3 id="1ecc7df4-474c-45d7-8300-287e6fc1cc96" class="">License</h3>
-				<p id="91303d5d-30b3-4cc5-a458-c1cc72a10c72" class="">この作品は<a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ4.0国際 ライセンス</a>の下に提供されていますが、こちらから<a href="https://buy.stripe.com/test_8wM9B63Qdagm73a4gg">投げ銭</a>することができます。</p>
-			<h3 id="814adf70-b0ca-42c7-bdb7-e27c01858755" class="">Download</h3>
-			<figure id="dd454370-8c14-47f2-a4c5-546efaab8f9e">
-				<div class="source"><a href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6fa5fe55-3745-4c2e-97ed-aef613c67afb/hiragana_poster_publicbeta.pdf">.pdf</a></div></figure>
-			<figure id="6039a427-af2d-4a80-8c49-11e4b4b7c46d"><div class="source"><a href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f333a42-2126-4dff-80fc-6d67f8c9420a/hiragana_poster_publicbeta.pdf">.ai</a></div></figure>
-		
-		<h2 id="7efdd959-60f7-4993-981e-88a05118c5a1" class="">Japanese Day of Week Poster for Kids</h2>
-			<h3 id="ad887a3e-edec-46ed-a073-4041f4414b6b" class="">Outline</h3>
-				<p id="50df838f-39ea-4342-a1ec-12569a090326" class="">幼児に曜日の名称を覚えてもらい、一週間の感覚を持たせるためのポスター。</p>
-			<h3 id="c43b4ccf-a35e-42b1-8d71-4ff4d11dd126" class="">License</h3>
-				<p id="0abb3e19-2320-479a-a519-ba2b244cef7c" class="">この作品は<a href="https://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ4.0国際 ライセンス</a>の下に提供されていますが、こちらから<a href="https://buy.stripe.com/test_8wM9B63Qdagm73a4gg">投げ銭</a>することができます。</p>
-			<h3 id="16afe12f-962a-49fe-ae34-f851afb3ff5b" class="">Download</h3>
-				<figure id="0a6a553a-bcc6-4cee-afec-45fb09c6a6c1"><div class="source"><a href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22356d99-e3c4-428b-9ff5-a0887791b237/week_and_day_poster_publicbeta.pdf">.pdf</a></div></figure>
-				<figure id="d8edbb80-c75d-4e85-86bd-a68e94e10004"><div class="source"><a href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb09e78d-e779-4b6a-9ae5-9e0e4d252dbe/week_publicbeta.ai">.ai</a></div></figure>
-		
-		<figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="98ccca11-c9ce-467c-9910-500ee58975a3"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%">Some rights by <a href="http://analekt.github.io/">RYO KIKUCHI</a> reserved.</div></figure><p id="95c6eab3-32cb-40d1-9c23-5adb1e0abbe6" class="">
-</p></div></article></body></html>
+</style></head><body><article id="7f069cbc-25d0-4132-9b5d-79c2b05621e5" class="page sans"><header><h1 class="page-title">RYO KIKUCHI</h1><p class="page-description"></p></header><div class="page-body"><p id="fb725594-f423-496e-83d1-f857e96211bf" class=""><a href="https://x.com/analekt">X</a></p><p id="03e2a816-2aee-4d2e-ad9d-fcfbb8ce2ba3" class=""><a href="https://www.facebook.com/kikvchi">Facebook</a></p><p id="4e772b19-2786-40fd-add5-20ba9c7fa25f" class=""><a href="https://www.instagram.com/kikvchi/">Instagram</a></p><p id="c51d6098-445f-4ff6-bd88-4960c586a966" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
