@@ -1,36 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>本を探すお</title>
+    <title>URLを生成して表示</title>
 </head>
 <body>
-    <input type="text" id="isbnInput" placeholder="ISBNを入力してください">
-    <button onclick="callApi()">本を探すお</button>
+    <input type="text" id="userInput" placeholder="任意の文字列を入力してください">
+    <button onclick="generateURL()">URLを生成</button>
 
-    <div id="result"></div>
+    <p id="generatedURL"></p>
 
     <script>
-        function callApi() {
-            // ユーザーが入力したISBNを取得
-            var isbn = document.getElementById("isbnInput").value;
+        function generateURL() {
+            // ユーザーが入力した文字列を取得
+            var userInput = document.getElementById("userInput").value;
 
-            // APIのURLを生成
-            var apiUrl = `https://api.openbd.jp/v1/get?isbn=${isbn}&pretty`;
+            // URLを生成
+            var generatedURL = `https://iss.ndl.go.jp/thumbnail/${userInput}`;
 
             // 結果を表示する要素を取得
-            var resultElement = document.getElementById("result");
+            var resultElement = document.getElementById("generatedURL");
 
-            // APIを呼び出し、結果を表示
-            fetch(apiUrl)
-                .then(response => response.json())
-                .then(data => {
-                    // APIからのデータを結果要素に表示
-                    resultElement.textContent = JSON.stringify(data, null, 2);
-                })
-                .catch(error => {
-                    // エラーが発生した場合の処理
-                    resultElement.textContent = "エラーが発生しました: " + error.message;
-                });
+            // 生成されたURLを表示
+            resultElement.textContent = generatedURL;
         }
     </script>
 </body>
