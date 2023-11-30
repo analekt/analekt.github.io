@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ISBNを指定してAPI呼び出し</title>
+</head>
+<body>
+    <input type="text" id="isbnInput" placeholder="ISBNを入力してください">
+    <button onclick="callApi()">APIを呼び出す</button>
+
+    <div id="result"></div>
+
+    <script>
+        function callApi() {
+            // ユーザーが入力したISBNを取得
+            var isbn = document.getElementById("isbnInput").value;
+
+            // APIのURLを生成
+            var apiUrl = "https://api.openbd.jp/v1/get?isbn=" + isbn;
+
+            // 結果を表示する要素を取得
+            var resultElement = document.getElementById("result");
+
+            // APIを呼び出し、結果を表示
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    // APIからのデータを結果要素に表示
+                    resultElement.textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    // エラーが発生した場合の処理
+                    resultElement.textContent = "エラーが発生しました: " + error.message;
+                });
+        }
+    </script>
+</body>
+</html>
