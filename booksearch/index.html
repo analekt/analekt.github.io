@@ -15,7 +15,7 @@
             var isbn = document.getElementById("isbnInput").value;
 
             // APIのURLを生成
-            var apiUrl = "https://api.openbd.jp/v1/get?isbn=" + isbn;
+            var apiUrl = `https://api.openbd.jp/v1/get?isbn=${isbn}&pretty`;
 
             // 結果を表示する要素を取得
             var resultElement = document.getElementById("result");
