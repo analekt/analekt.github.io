@@ -8,5 +8,5 @@
 - https://x.com/analekt
 - https://analekt.github.io/
 
-## DIY Project
+## Weekend Project
 - [Macondo Wiki](https://macondowiki.notion.site/)
