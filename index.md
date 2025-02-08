@@ -5,8 +5,8 @@
 - Working at a publishing company
 
 ## Accounts
-- https://x.com/analekt
-- https://analekt.github.io/
+- [X](https://x.com/analekt/)
+- [GitHub](https://analekt.github.io/)
 
 ## Weekend Project
 - [Macondo Wiki](https://macondowiki.notion.site/)
