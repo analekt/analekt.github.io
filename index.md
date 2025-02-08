@@ -1,9 +1,8 @@
 # About Me
 
 ## Basic Information
-- Name: Ryo KIKUCHI
-- Born in Tokyo
-- Works at a publishing company
+- Born and live in Tokyo
+- Working at a publishing company
 
 ## Accounts
 - https://x.com/analekt
