@@ -8,4 +8,4 @@
 - [X](https://x.com/analekt/)
 
 ## Weekend Project
-- [Cien años de soledad Reading Support Wiki](https://macondowiki.notion.site/)
+- [Cien años de soledad Reading Support Wiki (Japanese)](https://macondowiki.notion.site/)
