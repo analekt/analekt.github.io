@@ -1,3 +1,9 @@
+---
+layout: page
+title: ""
+header: false
+---
+
 # About Me
 ## Basic Information
 - Born and live in Tokyo
