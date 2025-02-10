@@ -1,8 +1,3 @@
----
-layout: default
-title: ""
----
-
 # About Me
 ## Basic Information
 - Born and live in Tokyo
