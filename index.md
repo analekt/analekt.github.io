@@ -1,5 +1,5 @@
 ## Basic Information
-- Born and live in Tokyo
+- Born and reside in Tokyo
 - Working at a publishing company
 ## Where I am
 - [X](https://x.com/analekt/)
