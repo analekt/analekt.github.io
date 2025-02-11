@@ -1,4 +1,3 @@
-# About Me
 ## Basic Information
 - Born and live in Tokyo
 - Working at a publishing company
