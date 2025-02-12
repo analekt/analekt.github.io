@@ -1,5 +1,4 @@
 # Info
-- Name: Ryo KIKUCHI
 - Born and reside in Tokyo
 - Work for publishing house in Japan
 
@@ -7,4 +6,4 @@
 - [X](http://x.com/analekt/)
 
 # Weekend Project
-- [Cien años de soledad Reading Support Wiki](https://macondo.wiki/)
+- Cien años de soledad Reading Support Wiki([web](https://macondo.wiki/), iOS)
