@@ -7,4 +7,4 @@
 - [X](http://x.com/analekt/)
 
 # Weekend Project
-- [Cien anos de soledad Reading Support Wiki](https://macondo.wiki/)
+- [Cien años de soledad Reading Support Wiki](https://macondo.wiki/)
