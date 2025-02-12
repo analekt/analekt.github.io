@@ -3,5 +3,5 @@
 
 # My Infos
 - Born and reside in Tokyo.
-- Work at a publishing houde in Japan.
+- Work at a publishing houde.
 - Here is my [X](http://x.com/analekt).
