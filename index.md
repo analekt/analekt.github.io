@@ -1,5 +1,5 @@
 # My Weekend Project
-- *Cien años de soledad* Reading Support Wiki ([Web](https://macondowiki.notion.site/), iOS)
+- *Cien años de soledad* Reading Support Wiki ([Web](https://macondo.wiki/), iOS)
 
 # My Infos
 - Reside in Tokyo.
