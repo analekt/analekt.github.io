@@ -1,6 +1,6 @@
 # Weekend Project
 - *Cien años de soledad* Reading Support Wiki ([Web](https://macondo.wiki/), iOS)
-- [新書新刊リーダー（RSSフィード）](https://analekt.github.io/shinsho/index.xml)
+- [新書新刊RSSフィード](https://analekt.github.io/shinsho/index.xml)（版元ドットコムのAPIを検索し、CコードがC02xxとなっている出版物のタイトルをRSSファイルとして出力します。1日1回検索しています）
 
 # My Infos
 - Reside in Tokyo.
