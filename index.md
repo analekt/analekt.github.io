@@ -4,7 +4,6 @@
 - [かんたんルビふりツール](https://yahoo-ruby-api-claude.vercel.app/)（コーディングはClaude 3.7 Sonnet。ヤフーの[ルビふりAPI](https://developer.yahoo.co.jp/webapi/jlp/furigana/v2/furigana.html)を使っています。）
 
 # My Infos
-- Reside in Tokyo.
-- Book editor, epub compiler, weekend developer.
-- Working at a publishing house.
-- Here is my [X](http://x.com/analekt).
+- フルスタック編集者
+- 出版社勤務
+- ごく稀に[X](http://x.com/analekt)に何か書きます。
