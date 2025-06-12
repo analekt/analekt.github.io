@@ -6,4 +6,4 @@
 # My Infos
 - フルスタック編集者
 - 出版社勤務
-- ごく稀に[X](http://x.com/analekt)に何か書きます。
+- ほぼ稼働していない[X](http://x.com/analekt)
