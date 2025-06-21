@@ -1,9 +1,9 @@
 # Weekend Project
 - [『百年の孤独』読み解き支援ウィキ](http://macondowiki.notion.site/)
-- [Rubify β - かんたんルビふりツール](https://rubify.vercel.app/)（コーディングはClaude 3.7 Sonnet。ヤフーの[ルビふりAPI](https://developer.yahoo.co.jp/webapi/jlp/furigana/v2/furigana.html)を使っています）
+- [Rubify β - かんたんルビふりツール](https://rubify.vercel.app/)（コーディングはClaude 3.7 Sonnet+Cursor。ヤフーの[ルビふりAPI](https://developer.yahoo.co.jp/webapi/jlp/furigana/v2/furigana.html)を使っています）
 - [新刊書籍RSSフィード作成アプリ](https://analekt.github.io/opendb-feed/)（コーディングはClaude Code、[OpenDB](https://openbd.jp/)のAPIを利用しています）
 
 # My Infos
-- フルスタック編集者
 - 出版社勤務
-- ほぼ稼働していない[X](http://x.com/analekt)
+- フルスタック編集者
+- ほぼ稼働していない [X](http://x.com/analekt)
