@@ -6,6 +6,7 @@
 - [国会会議録検索システムAPI MCPサーバー](https://github.com/analekt/kokkai-mcp)
 # リンク
 - [X](http://x.com/analekt)
-- [Github](http://github.com/analekt)
+- [Github](http://github.com/kikvchi)
 - [Instagram](http://instagram.com/kikvchi)
+
 
