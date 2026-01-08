@@ -1,10 +1,3 @@
-# できること
-- 書籍の企画、編集
-- 動画の企画、編集
-- 雑誌やウェブメディアの記事の企画、編集、執筆
-- 書籍の組版
-- 電子書籍の製作
-- ウェブアプリケーションの開発（たしなむ程度）
 # 日曜大工
 - [『百年の孤独』読み解き支援ウィキ](http://macondowiki.notion.site/)
 - [Rubify β - かんたんルビふりツール](https://rubify.vercel.app/)（ヤフーの[ルビふりAPI](https://developer.yahoo.co.jp/webapi/jlp/furigana/v2/furigana.html)を使っています）
@@ -15,3 +8,4 @@
 - [X](http://x.com/analekt)
 - [Github](http://github.com/analekt)
 - [Instagram](http://instagram/kikvchi)
+
