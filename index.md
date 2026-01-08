@@ -15,4 +15,3 @@
 # リンク
 - [X](http://x.com/analekt)
 - [Github](http://github.com/analekt)
-
