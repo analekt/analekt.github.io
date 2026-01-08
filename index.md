@@ -1,10 +1,10 @@
-#まずまずできること
+# まずまずできること
 - 書籍の企画、編集
 - 雑誌記事の企画、編集
 - 組版、電子書籍の製作
-#少しできること
+# 少しできること
 - 動画の企画、編集
-#勉強中
+# 勉強中
 - ウェブアプリケーションの開発
 # Weekend Project
 - [『百年の孤独』読み解き支援ウィキ](http://macondowiki.notion.site/)
@@ -18,5 +18,3 @@
 # リンク
 - [X](http://x.com/analekt)
 - [Github](http://github.com/analekt)
-
-
