@@ -3,10 +3,10 @@
 - [Rubify β - かんたんルビふりツール](https://rubify.vercel.app/)（ヤフーの[ルビふりAPI](https://developer.yahoo.co.jp/webapi/jlp/furigana/v2/furigana.html)を使っています）
 - 新書ファインダー[RSS版](https://analekt.github.io/shinsho-finder/)、[X版](https://x.com/shinshofinder)（[OpenDB](https://openbd.jp/)のAPIを利用しています）
 - [Yahoo! ふりがな API MCP サーバ](https://github.com/analekt/yahoo-furigana-mcp)
-- [国会会議録検索システムAPI MCPサーバー](https://github.com/analekt/kokkai-mcp)
 # リンク
 - [X](http://x.com/analekt)
 - [Github](http://github.com/kikvchi)
 - [Instagram](http://instagram.com/kikvchi)
+
 
 
