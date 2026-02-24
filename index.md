@@ -5,10 +5,12 @@
 - [Yahoo! ふりがな API MCP サーバ](https://github.com/analekt/yahoo-furigana-mcp)
 - [国会アプリ β](https://kokkai.ai/)
 - [EPUBcheck (VS Code Extension)](https://marketplace.visualstudio.com/items?itemName=analekt.vscode-epubcheck)
+
 # リンク
 - [X](http://x.com/analekt)
 - [Github](http://github.com/kikvchi)
 - [Instagram](http://instagram.com/kikvchi)
+
 
 
 
